@@ -1,0 +1,20 @@
+{
+  "name": "fc-mobile-checker",
+  "version": "1.0.0",
+  "description": "Tool check thông tin tài khoản FC Mobile VN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.6",
+    "figlet": "^1.7.0",
+    "boxen": "^5.1.2"
+  }
+}
